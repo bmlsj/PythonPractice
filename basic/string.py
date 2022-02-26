@@ -1,5 +1,5 @@
 ## 슬라이싱
-# 필요한 정보만 추출해서 사용
+# 필요한 정보만 추출해서 사용가능
 
 jumin = "990120-1234567"
 print("성별 : " + jumin[7])
@@ -23,7 +23,7 @@ print(len(python))              # 문자열 길이
 print(python.replace("Python", "Java"))     # 'Python'문자를 'Java'로 교체
 
 
-# index 함수
+## index 함수
 index = python.index("n")       # n의 인덱스 위치를 알려줌
 print(index)
 
@@ -31,15 +31,15 @@ index = python.index("n", index + 1)    # (index + 1)의 위치부터 n을 찾�
 print(index)
 
 
-# find 함수
+## find 함수
 print(python.find("n"))
-
 
 # find와 index 의 차이
 print(python.find("Java"))      # 원하는 값이 없을 때, -1 출력
 # print(python.index("Java"))     # 원하는 값이 없을 때, error 출력후 종료
 
-# count 함수
+
+## count 함수
 print(python.count("n"))        # n의 갯수
 print()
 
@@ -73,6 +73,7 @@ age= 20
 color = "파란"
 print(f"나는 {age}살이며, {color}색을 좋아해요.")   # 실제 변수값을 출력 가능 
 print()
+
 
 ## 탈출 문자
 # \n : 줄바꿈
