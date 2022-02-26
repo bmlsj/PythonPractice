@@ -1,7 +1,6 @@
 # 딕셔너리(사전)
 ## key와 value로 구성
 
-
 cabinet = {3:"유재석", 100:"김태호"}
 print(cabinet[3])       # 유재석 -> key 3의 값
 print(cabinet[100])     # 김태호
