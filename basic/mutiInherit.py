@@ -46,7 +46,8 @@ class Flyable():
 
 
 # 공중 공격 유닛 클래스
-# 공격 + 날 수 있는 기능을 가져서, AttackUnit과 Flyable에게 상속 받음.
+# 공격 + 날 수 있는 기능을 가져서, AttackUnit과 Flyable에게 상속 받음.  => 다중 상속
+
 class FlyableAttackUnit(AttackUnit, Flyable):
     def __init__(self, name, hp, damage, flying_speed):
             AttackUnit.__init__(self, name, hp, damage)     # 공격 기능
